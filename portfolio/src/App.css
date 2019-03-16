@@ -5,8 +5,8 @@
 }
 
 .landing-grid {
-  background-image: url('./images/portfolio-background.jpg');  /* fallback for old browsers */
-  background-repeat: no-repeat;
+  /* fallback for old browsers */
+  background: url('./images/portfolio-background.jpg') no-repeat;
   background-size: cover;
   text-align: center;
   position: fixed;
@@ -22,9 +22,12 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
-  padding: 2em;
+  width: 100% !important;
+  margin: 0 !important;
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(to right, #000000, #434343);
+  color: rgb(212, 205, 205);
+  padding: 7em;
 }
 
 /* contact page css */
@@ -113,4 +116,9 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.resume-grid {
+  background-image: url('./images/resume-background.png');
+  background-size: cover;
 }
