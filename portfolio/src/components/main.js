@@ -1,12 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
 import Home from './home';
 import AboutMe from './about';
 import Contact from './contact';
 import Projects from './projects';
-import Resume from './resume';
-
 
 const Main = () => (
     <Switch>
@@ -14,7 +11,6 @@ const Main = () => (
         <Route path="/about-me" component={AboutMe} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
     </Switch>
 );
 
