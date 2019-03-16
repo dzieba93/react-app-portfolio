@@ -4,6 +4,16 @@
   background: linear-gradient(to right, #141E30, #243B55);
 }
 
+/* Nav css */
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #cccaca !important;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: rgb(19, 19, 19) !important;
+}
+/* Nav css */
+
 .landing-grid {
   /* fallback for old browsers */
   background: url('./images/portfolio-background.jpg') no-repeat;
